@@ -12,18 +12,35 @@
 
 <body>
 
-    <div class="navbar bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img class="d-inline-block align-text-top rounded-5" width="30" height="30" src="https://objectstorage.sa-santiago-1.oraclecloud.com/n/axtvtikkef9i/b/bucket-projects/o/foto_perfil.jpg"
+            <a class="navbar-brand" href="#">Home</a>
+
+            <img class="d-block d-sm-none rounded-5" width="30" height="30"
+                    src="https://objectstorage.sa-santiago-1.oraclecloud.com/n/axtvtikkef9i/b/bucket-projects/o/foto_perfil.jpg"
                     alt="image profile">
-            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Contacto</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </div>
+    </nav>
 
     <div class="container">
 
-        <div class="row my-4 align-items-center">
+        <div class="row py-5 align-items-center">
             <div class="col-12 col-sm-8 text-center text-sm-start">
                 <p class="text fs-2">Hola! Soy</p>
                 <p class="text fs-1 fw-bold">Jesus Pichón Ramirez</p>
@@ -38,7 +55,8 @@
                     class="btn btn-primary">Descargar CV</a>
             </div>
             <div class="d-none d-sm-block col-4">
-                <img class="img-fluid rounded-5 w-75 float-end" src="https://objectstorage.sa-santiago-1.oraclecloud.com/n/axtvtikkef9i/b/bucket-projects/o/foto_perfil.jpg"
+                <img class="img-fluid rounded-5 w-75 float-end"
+                    src="https://objectstorage.sa-santiago-1.oraclecloud.com/n/axtvtikkef9i/b/bucket-projects/o/foto_perfil.jpg"
                     alt="image profile">
             </div>
         </div>
