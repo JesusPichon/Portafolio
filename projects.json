@@ -1,4 +1,4 @@
-[
+{
     {
         "name": "Encriptador",
         "description": "Challenge 01: Encriptador de texto, programa Oracle Next Education.",
@@ -6,4 +6,4 @@
         "url": "https://jesuspichon.github.io/Encriptador/",
         "repository": "https://github.com/JesusPichon/Encriptador"
     }
-]
+}
