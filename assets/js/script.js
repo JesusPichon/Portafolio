@@ -1,7 +1,7 @@
 const getProjects = async () => {
     try {
-        let requestJSON = await fetch('https://github.com/JesusPichon/portafolio/projects.json');
-        //let requestJSON = await fetch('../projects.json')
+        const url = "https://objectstorage.sa-santiago-1.oraclecloud.com/p/KLK3a46HtS28v-BiQxcaKeuAgv6NUsljryxLoX4FXeAmzjO1H34hgSjMt8IPkJNC/n/axtvtikkef9i/b/bucket-projects/o/portafolio-projects.json"
+        let requestJSON = await fetch(url);
         let response = await requestJSON.json();
 
         return response;
