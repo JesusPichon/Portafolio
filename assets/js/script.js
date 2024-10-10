@@ -1,6 +1,7 @@
 const getProjects = async () => {
     try {
         let requestJSON = await fetch('https://github.com/JesusPichon/portafolio/projects.json');
+        //let requestJSON = await fetch('../projects.json')
         let response = await requestJSON.json();
 
         return response;

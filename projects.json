@@ -21,7 +21,7 @@
         ]
     },
     {
-        "name": "Bio Collector",
+        "name": "BioCollector",
         "description": "Aplicacion movil para la toma de datos biologicos en campo.",
         "image": "https://objectstorage.sa-santiago-1.oraclecloud.com/n/axtvtikkef9i/b/bucket-projects/o/02-BioCollector.png",
         "url": "",
@@ -47,8 +47,8 @@
     },
     {
         "name": "SOTM",
-        "description": "Aplicación web que permite encontrar la ruta mas corta entre estaciones del metro de la ciudad de México. (3° Fepro 2022 | Puebla)",
-        "image": "https://objectstorage.sa-santiago-1.oraclecloud.com/n/axtvtikkef9i/b/bucket-projects/o/03-SOTM.png",
+        "description": "Aplicación que permite encontrar la ruta mas corta entre las estaciones del metro de la ciudad de México. (3° Fepro 2022 | Puebla)",
+        "image": "https://objectstorage.sa-santiago-1.oraclecloud.com/n/axtvtikkef9i/b/bucket-projects/o/04-SOTM.png",
         "url": "",
         "repository": "https://github.com/JesusPichon/Sistema-Orientacion-Transporte-Metro",
         "tools": [
@@ -67,6 +67,40 @@
             {
                 "name": "AJAX",
                 "color": "warning"
+            }
+        ]
+    },
+    {
+        "name": "Conversor",
+        "description": "Challenge 02: Conversor de divisas, programa Oracle Next Education.",
+        "image": "https://objectstorage.sa-santiago-1.oraclecloud.com/n/axtvtikkef9i/b/bucket-projects/o/05-Conversor.png",
+        "url": "",
+        "repository": "https://github.com/JesusPichon/Conversor",
+        "tools": [
+            {
+                "name": "Java",
+                "color": "danger"
+            }
+        ]
+    },
+    {
+        "name": "Reko: ChatBot",
+        "description": "Sistema para la gestion de tareas en Notion utilizando el servicio de mensajeria Whatsapp.(1° Hackathon | Puebla)",
+        "image": "https://objectstorage.sa-santiago-1.oraclecloud.com/n/axtvtikkef9i/b/bucket-projects/o/06-ChatBot.png",
+        "url": "",
+        "repository": "https://github.com/JesusPichon/API-Notion",
+        "tools": [
+            {
+                "name": "Express",
+                "color": "dark"
+            },
+            {
+                "name": "JavaScript",
+                "color": "warning"
+            },
+            {
+                "name": "Notion",
+                "color": "light"
             }
         ]
     }
