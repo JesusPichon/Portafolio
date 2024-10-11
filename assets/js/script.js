@@ -1,3 +1,4 @@
+//get projects at server
 const getProjects = async () => {
     try {
         const url = "https://objectstorage.sa-santiago-1.oraclecloud.com/p/KLK3a46HtS28v-BiQxcaKeuAgv6NUsljryxLoX4FXeAmzjO1H34hgSjMt8IPkJNC/n/axtvtikkef9i/b/bucket-projects/o/portafolio-projects.json"
@@ -10,6 +11,7 @@ const getProjects = async () => {
     }
 }
 
+//show each project as card
 const showProjects = async () => {
     try {
         let projects = await getProjects();
